@@ -1,0 +1,126 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Nixie One", system-ui;
+}
+
+html {
+    background: url(main-background.jpg) no-repeat;
+    background-size: cover;
+}
+
+.main-box {
+    background: #feac00;
+    width: 80%;
+    min-height: 80vh;
+    border-radius: 1rem;
+    z-index: 4;
+    backdrop-filter: blur(2rem);
+    background: linear-gradient(
+         to right bottom,
+          rgba(255, 187, 0, 0.719),rgba(255, 187, 0, 0.1));
+          
+}
+
+
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main-box nav {
+    padding: 50px;
+
+}
+
+.main-box nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: black;
+    font-size: 1.6rem;
+
+}
+
+li span {
+    font-size: 2.3rem;
+    color: white;
+    padding: 6px 6px;
+    border-radius: 0.75rem;
+    background: black;
+    cursor: pointer;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    
+}
+.main-text h1 {
+    font-size: 65px;
+
+}
+
+.main-text {
+    max-width: 500px;
+}
+
+.main-text h2 {
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.main-text p {
+    font-weight: 370;
+    font-size: 1.5rem;
+    margin: 18px 0 40px;
+}
+
+.btn1 , .btn2 {
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    border-radius: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.btn2 {
+    background: white;
+    color: black;
+    margin-left: 1rem;
+}
+
+.btn2:hover {
+    background: #cc683a;
+    color: white;
+}
+
+.btn1:hover {
+    background: #cc683a;
+    color: white;
+}
+
+.main-text::after {
+    content: '';
+    width: 6px;
+    height: 19%;
+    background: #cc683a;
+    position: absolute;
+    left: 6.4rem;
+    top: 9.7rem;
+
+}
+
